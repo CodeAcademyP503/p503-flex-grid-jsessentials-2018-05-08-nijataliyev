@@ -1,0 +1,14 @@
+body{
+    margin: 0px auto;
+}
+.container{
+    margin-left: 100px;
+    width: 68%;
+}
+@import "lib/topbar";
+@import "lib/infobar";
+@import "lib/galarybar";
+@import "lib/namebar";
+@import "lib/bottominfo";
+@import "lib/contactbar";
+@import "lib/advertbar";

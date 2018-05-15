@@ -1,0 +1,107 @@
+#infopos{
+    margin-top: 20px;
+    .container{
+    display: grid;
+    grid-template-columns: 700px 250px;
+    border-radius: 5px;
+    .grid-container{
+        display: grid;
+        grid-template-columns: 400px  300px;
+        box-sizing: border-box;
+        
+    .leftinfo{
+        background-color: #84ae3e;
+        
+        .select{
+            margin: 10px 11px -14px 10px;
+            h4{
+                display: inline-block;
+                color:white;
+                margin: 10px;
+            }
+           .firstselect{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            float: right;
+           }
+        }
+    }
+
+    #rightinfo{
+        
+        .selectright{
+            background-color: #84ae3e;
+            box-sizing: border-box;
+            h4{
+                display: inline-block;
+                color: white;
+                margin: 10px;
+            }
+            .rightselect{
+                width: 70px;
+                height: 25px;
+                border-radius: 5px;
+                float: right;
+                margin-right: 20px;
+            }
+        }
+    }
+    }
+    .border{
+        height: 30px;
+        text-align: center;
+        background-color: #84ae3e;
+        border-top: 1px solid black;
+        width: 100%;
+        grid-area:  2 / span 2;
+        color: white;
+        i{
+            color:white;
+            margin-left: 235px;
+        }
+        input{
+            width: 20px;
+            height: 20px;
+        }
+        button{
+            float: right;
+            width: 100px;
+            height: 30px;
+            background: #f6a828;
+            color: white;
+            border: none;
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+    }
+.right{
+    box-sizing: border-box;
+    padding: 0px 20px;
+    button{
+        i{
+            font-size: 15px;
+        }
+        border-radius: 5px;
+        width: 200px;
+        border:none;
+        padding: 5px;
+        border: 1px solid green;
+        background: #f4ffe2;
+        margin-bottom: 9px;
+        &:hover{
+            background: orange;
+        }
+        &:first-child{
+            background: #84ae3e;
+            cursor: pointer;
+            &:hover{
+                background: #f6a828;
+            }
+        }
+    }
+    
+
+}
+
+}

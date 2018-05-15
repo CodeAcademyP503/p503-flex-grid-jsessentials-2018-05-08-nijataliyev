@@ -1,0 +1,289 @@
+body {
+  margin: 0px auto;
+}
+
+.container {
+  margin-left: 100px;
+  width: 68%;
+}
+
+.toppos {
+  display: grid;
+  grid-template-columns: repeat(24, auto);
+  background: #6f6f6f;
+}
+.toppos img {
+  float: right;
+  grid-column: 5/7;
+  width: 100%;
+  cursor: pointer;
+}
+.toppos ul {
+  float: left;
+  padding: 0px;
+  grid-column: 9/13;
+}
+.toppos ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  color: white;
+}
+.toppos ul li:hover {
+  color: #ff7905;
+}
+.toppos ul li:nth-child(1) {
+  padding-left: 0px;
+}
+.toppos ul li:last-child {
+  padding-right: 0px;
+}
+.toppos .gridbtn {
+  grid-column: 16/17;
+}
+.toppos .gridbtn .btn {
+  margin-top: 10px;
+}
+.toppos .gridbtn .btn button {
+  width: 135px;
+  height: 30px;
+  background: #f6a828;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: none;
+}
+.toppos .gridbtn .btn button:hover {
+  background-color: #ff7905;
+}
+.toppos .gridsearch {
+  background: #6f6f6f;
+  text-align: center;
+  grid-column: 13/14;
+}
+.toppos .gridsearch input {
+  padding: 5px;
+  width: 70px;
+  border-radius: 5px 0px 0px 5px;
+  margin-top: 10px;
+}
+.toppos .gridsearch button {
+  height: 30px;
+  background: #bdb8b8;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  position: relative;
+  padding: 5px;
+}
+.toppos .gridsearch button:hover {
+  background: #ff7905;
+}
+
+#infopos {
+  margin-top: 20px;
+}
+#infopos .container {
+  display: grid;
+  grid-template-columns: 700px 250px;
+  border-radius: 5px;
+}
+#infopos .container .grid-container {
+  display: grid;
+  grid-template-columns: 400px  300px;
+  box-sizing: border-box;
+}
+#infopos .container .leftinfo {
+  background-color: #84ae3e;
+}
+#infopos .container .leftinfo .select {
+  margin: 10px 11px -14px 10px;
+}
+#infopos .container .leftinfo .select h4 {
+  display: inline-block;
+  color: white;
+  margin: 10px;
+}
+#infopos .container .leftinfo .select .firstselect {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  float: right;
+}
+#infopos .container #rightinfo .selectright {
+  background-color: #84ae3e;
+}
+#infopos .container #rightinfo .selectright h4 {
+  display: inline-block;
+  color: white;
+  margin: 10px;
+}
+#infopos .container #rightinfo .selectright .rightselect {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 20px;
+}
+#infopos .container .border {
+  height: 30px;
+  text-align: center;
+  background-color: #84ae3e;
+  border-top: 1px solid black;
+  width: 100%;
+  grid-area: 2 / span 2;
+  color: white;
+}
+#infopos .container .border i {
+  color: white;
+  margin-left: 235px;
+}
+#infopos .container .border input {
+  width: 20px;
+  height: 20px;
+}
+#infopos .container .border button {
+  float: right;
+  width: 100px;
+  height: 30px;
+  background: #f6a828;
+  color: white;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+#infopos .right {
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+#infopos .right button {
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  padding: 5px;
+  border: 1px solid green;
+  background: #f4ffe2;
+  margin-bottom: 9px;
+}
+#infopos .right button i {
+  font-size: 15px;
+}
+#infopos .right button:hover {
+  background: orange;
+}
+#infopos .right button:first-child {
+  background: #84ae3e;
+  cursor: pointer;
+}
+#infopos .right button:first-child:hover {
+  background: #f6a828;
+}
+
+.galaryfirst .galaryheader p {
+  border-left: 5px solid #f6a828;
+  margin: 10px 0px 10px 100px;
+}
+.galaryfirst .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+}
+.galaryfirst .container .images {
+  position: relative;
+  background: #eff2f3;
+  box-shadow: 1px 1px 3px #A6A6A6;
+  cursor: pointer;
+}
+.galaryfirst .container .images span {
+  position: absolute;
+  left: 0px;
+  color: #eee6e6;
+  opacity: 0.7;
+  background: #3c3c3c;
+  width: 100%;
+  height: 26px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 3px;
+}
+.galaryfirst .container .images span b {
+  color: #f67606;
+}
+.galaryfirst .container .images img {
+  width: 100%;
+}
+.galaryfirst .container .images p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#namepos .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 15px;
+  margin-left: 118px;
+}
+#namepos .container i {
+  border-bottom: 1px solid #ebffd4;
+  color: #e5e5e5;
+  margin: -16px;
+  padding: 0px;
+  font-size: 13px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#namepos .container i:hover {
+  border-bottom-color: green;
+}
+#namepos .container i p {
+  display: inline-block;
+  color: #525252;
+  font-size: 15px;
+}
+
+#bottominfo {
+  margin-top: 10px;
+}
+#bottominfo .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+#bottominfo .container button {
+  background: no-repeat;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#bottominfo .container button:hover {
+  background: #f6a828;
+}
+
+#contactpos {
+  background: #6f6f6f;
+  height: 100px;
+  margin-top: 5px;
+  position: relative;
+}
+#contactpos .about {
+  text-align: center;
+}
+#contactpos .about pre {
+  color: white;
+}
+#contactpos img {
+  position: relative;
+  left: 580px;
+}
+
+#advert img {
+  position: absolute;
+  left: 1037px;
+  top: 151px;
+}
+
+/*# sourceMappingURL=style.css.map */

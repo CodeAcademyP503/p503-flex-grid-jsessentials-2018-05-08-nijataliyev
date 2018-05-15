@@ -1,0 +1,18 @@
+#bottominfo{
+    margin-top: 10px;
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+        button{
+            background: no-repeat;
+            border: none;
+            border: 1px solid grey;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background: #f6a828;
+            }
+        }
+    }
+}
